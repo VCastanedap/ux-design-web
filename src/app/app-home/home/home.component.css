@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Raleway:wght@400;500&display=swap');
+
+
+.audiowide-font {
+  font-family: 'Audiowide', sans-serif; /* Asegúrate de que el nombre de la fuente coincida con la que importaste */
+  background-color: #8B56E8; /* Cambiar color de fondo */
+  border: none; /* Eliminar borde */
+  border-radius: 10px; /* Agregar borde redondeado */
+  padding: 10px 20px; /* Ajustar relleno */
+  font-size: 28px; /* Cambiar tamaño de fuente */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  text-align: center; /* Centrar texto */
+  margin: 20px; /* Márgenes entre los botones */
+  width: 550px; /* Ancho fijo para los botones */
+  font-weight: bold; /* Grosor de la fuente */
+  height: 50px; /* Altura deseada del botón */
+}

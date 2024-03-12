@@ -28,11 +28,11 @@
   font-size: 16px; /* Cambiar tamaño de fuente */
   cursor: pointer; /* Cambiar cursor al pasar el mouse */
   text-align: center; /* Centrar texto */
+  margin-top: 30px; /* Márgenes entre los botones */
+  margin-left: 13rem; /* Márgenes entre los botones */
   width: 180px; /* Ancho fijo para los botones */
   font-weight: bold; /* Grosor de la fuente */
   height: 50px; /* Altura deseada del botón */
-  margin-left: 14rem;
-  margin-right: auto;
 }
 
 .my-btn-end:hover {
@@ -65,7 +65,10 @@
 .slide-toggle {
   margin-top: 20px;
 
+
 }
+
+
 .score-ranking-container {
   display: flex;
 }
@@ -102,11 +105,4 @@
 
 .content{
   background-color:#EFEAFF ;
-}
-
-.txtMorado{
-  color: #8B56E8;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 18px;
 }
