@@ -1,37 +1,39 @@
 <main class="main">
   <div class="content">
-  
+
     <div class="row">
-      
+
       <div class="col-2">
-        <br>        
+        <br>
         <img src="\assets\img\fire-alarm.png" alt="Brand" width="120" height="120">
       </div>
 
       <div class="col-2"></div>
 
-      <div class="col-2">
+      <div class="col-4">
         <br>
         <br>
-        <h2 class="mat-display-1" style="text-align: center; background-color: blueviolet;">GameClock</h2>
+        <h2 class="mat-display-1 audiowide-font" style="text-align: center; background-color: blueviolet;">GameClock</h2>
       </div>
 
-      <div class="col-2"></div>
       <div class="col-2"></div>
 
 
       <div class="col-1">
-        <br>
-        <br>
-        <h2 class="mat-display-1" style="text-align: center; background-color: blueviolet; color: white;">2048</h2>
+        <h2 class="mat-display-1" style="margin-top: 38px; text-align: center; background-color: #8B56E8; color: white; border-radius: 8px; height: 75px ">
+        <p>puntaje:</p> 2048 </h2>
       </div>
+
       <div class="col-1"></div>
     </div>
 
-    <h1 class="mat-display-1" style="text-align: center;">Próxima Alarmas</h1>  
+
+    <br>
+    <br>
+    <h1 class="mat-display-1" style="text-align: center;">Próxima Alarmas</h1>
 
     <mat-grid-list cols="5">
-      
+
       <mat-grid-tile>
         <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
           <mat-icon>arrow_back</mat-icon>
@@ -39,28 +41,9 @@
       </mat-grid-tile>
 
 
-      <mat-grid-tile>
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>Próxima Alarma</mat-card-title>
-                <mat-card-subtitle>9:45 AM</mat-card-subtitle>
-                <mat-card-subtitle>02/03/2024</mat-card-subtitle>
-            </mat-card-header>
-          <mat-card-content>
-            <p>
-              Alarma: No olvides tomar tus medicamentos
-            </p>
-          </mat-card-content>
-          <mat-card-actions>
-            <button mat-raised-button>Posponer</button>
-            <button mat-raised-button color="primary">Cancelar</button>
-          </mat-card-actions>
-        </mat-card> 
-      </mat-grid-tile>
-
-      <mat-grid-tile>
-        <mat-card>
-          <mat-card-header>
+      <mat-grid-tile style="justify-content: center;">
+        <mat-card style=" text-align: center;justify-content: center; border-radius: 13px; background-color: #EFEAFF; border: 2px solid #8B56E8;">
+          <mat-card-header style="justify-content: center;">
               <mat-card-title>Próxima Alarma</mat-card-title>
               <mat-card-subtitle>9:45 AM</mat-card-subtitle>
               <mat-card-subtitle>02/03/2024</mat-card-subtitle>
@@ -70,32 +53,51 @@
             Alarma: No olvides tomar tus medicamentos
           </p>
         </mat-card-content>
-        <mat-card-actions>
-          <button mat-raised-button>Posponer</button>
-          <button mat-raised-button color="primary">Cancelar</button>
-        </mat-card-actions>
-      </mat-card>
-      </mat-grid-tile>
-
-      <mat-grid-tile>
-        <mat-card>
-          <mat-card-header>
-              <mat-card-title>Próxima Alarma</mat-card-title>
-              <mat-card-subtitle>9:45 AM</mat-card-subtitle>
-              <mat-card-subtitle>02/03/2024</mat-card-subtitle>
-          </mat-card-header>
-        <mat-card-content>
-          <p>
-            Alarma: No olvides tomar tus medicamentos
-          </p>
-        </mat-card-content>
-        <mat-card-actions>
-          <button mat-raised-button>Posponer</button>
-          <button mat-raised-button color="primary">Cancelar</button>
+        <mat-card-actions style="justify-content: center;">
+          <button mat-raised-button style="background-color: #EFEAFF; color: #8B56E8; border: 2px solid #8B56E8; " >Posponer</button>
+          <button mat-raised-button style="background-color: #8B56E8; color: white; margin-left:5px;">Cancelar</button>
         </mat-card-actions>
         </mat-card>
       </mat-grid-tile>
-    
+
+      <mat-grid-tile style="justify-content: center;">
+        <mat-card style=" text-align: center;justify-content: center; border-radius: 13px; background-color: #EFEAFF; border: 2px solid #8B56E8;">
+          <mat-card-header style="justify-content: center;">
+              <mat-card-title>Próxima Alarma</mat-card-title>
+              <mat-card-subtitle>9:45 AM</mat-card-subtitle>
+              <mat-card-subtitle>02/03/2024</mat-card-subtitle>
+          </mat-card-header>
+        <mat-card-content>
+          <p>
+            Alarma: No olvides tomar tus medicamentos
+          </p>
+        </mat-card-content>
+        <mat-card-actions style="justify-content: center;">
+          <button mat-raised-button style="background-color: #EFEAFF; color: #8B56E8; border: 2px solid #8B56E8; " >Posponer</button>
+          <button mat-raised-button style="background-color: #8B56E8; color: white; margin-left:5px;">Cancelar</button>
+        </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+
+      <mat-grid-tile style="justify-content: center;">
+        <mat-card style=" text-align: center;justify-content: center; border-radius: 13px; background-color: #EFEAFF; border: 2px solid #8B56E8;">
+          <mat-card-header style="justify-content: center;">
+              <mat-card-title>Próxima Alarma</mat-card-title>
+              <mat-card-subtitle>9:45 AM</mat-card-subtitle>
+              <mat-card-subtitle>02/03/2024</mat-card-subtitle>
+          </mat-card-header>
+        <mat-card-content>
+          <p>
+            Alarma: No olvides tomar tus medicamentos
+          </p>
+        </mat-card-content>
+        <mat-card-actions style="justify-content: center;">
+          <button mat-raised-button style="background-color: #EFEAFF; color: #8B56E8; border: 2px solid #8B56E8; " >Posponer</button>
+          <button mat-raised-button style="background-color: #8B56E8; color: white; margin-left:5px;">Cancelar</button>
+        </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+
 
       <mat-grid-tile>
         <button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
@@ -106,12 +108,12 @@
     </mat-grid-list>
 
     <mat-grid-list cols="6">
-      
+
       <mat-grid-tile> </mat-grid-tile>
       <mat-grid-tile> </mat-grid-tile>
 
-      <mat-grid-tile> 
-        <mat-card style="align-items: center; background-color: blueviolet;">
+      <mat-grid-tile>
+        <mat-card style="align-items: center; background-color: blueviolet; border-radius: 13px;">
             <mat-card-header>
                 <mat-card-title style="color: white;">Editar Alarma</mat-card-title>
             </mat-card-header>
@@ -119,25 +121,25 @@
             <button mat-icon-button aria-label="Example icon button with a home icon" style="color: white;">
               <mat-icon>list_alt</mat-icon>
             </button>
-          </mat-card-content>  
-        </mat-card>        
+          </mat-card-content>
+        </mat-card>
       </mat-grid-tile>
-    
-      
 
-      <mat-grid-tile> 
-        <mat-card style="align-items: center; background-color: blueviolet;">
+
+
+      <mat-grid-tile (click)="redirectToPuzzle()">
+        <mat-card style="align-items: center; background-color: blueviolet; border-radius: 13px;">
             <mat-card-header>
                 <mat-card-title style="color: white;">Crear Puzzles</mat-card-title>
             </mat-card-header>
           <mat-card-content>
-            <button mat-icon-button aria-label="Example icon button with a home icon" style="color: white;">
+            <button  mat-icon-button aria-label="Example icon button with a home icon" style="color: white;">
               <mat-icon>videogame_asset</mat-icon>
             </button>
-          </mat-card-content>  
-        </mat-card>        
+          </mat-card-content>
+        </mat-card>
       </mat-grid-tile>
-      
+
       <mat-grid-tile> </mat-grid-tile>
       <mat-grid-tile> </mat-grid-tile>
 

@@ -1,0 +1,88 @@
+<div class="content">
+  <div class="row">
+
+    <div class="col-2" (click)="redirectToHome()">
+      <br>
+      <img src="\assets\img\fire-alarm.png" alt="Brand" width="120" height="120">
+    </div>
+
+    <div class="col-2"></div>
+
+    <div class="col-4" (click)="redirectToHome()">
+      <br>
+      <br>
+      <h2 class="mat-display-1 audiowide-font ">GameClock</h2>
+    </div>
+
+    <div class="col-2"></div>
+
+
+    <div class="col-1">
+        <h2 class="mat-display-1" style=" margin-top: 38px; text-align: center; background-color: #8B56E8; color: white; border-radius: 8px; height: 75px ">
+        <p>puntaje:</p> 2048 </h2>
+    </div>
+  </div>
+
+
+  <div class="content">
+    <div class="row" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="80px">
+      <!-- Columna 1: Logo y título -->
+      <div class="col-1">
+
+      </div>
+
+      <!-- Columna 2: Botones -->
+      <div fxLayout="column" fxLayoutAlign="start center" class="col-4">
+        <button mat-button class="my-custom-btn mat-stretch"><mat-icon class="mat-icon1">calculate</mat-icon>Matematicas </button>
+        <button mat-button class="my-custom-btn mat-stretch"><mat-icon class="mat-icon1">extension</mat-icon>Rompecabezas</button>
+        <button mat-button class="my-custom-btn mat-stretch"><mat-icon class="mat-icon1">settings_overscan</mat-icon>Escanear</button>
+        <button mat-button class="my-custom-btn mat-stretch"><mat-icon class="mat-icon1">sports_esports</mat-icon>Tetris</button>
+        <button  (click)="redirectToCrearPuzzle()" mat-button class="my-btn-end">Crear</button>
+      </div>
+
+      <!-- Columna 3: Puntuación, Ranking y Formulario -->
+      <div  class="col-4">
+        <h1>Puntuación:</h1>
+        <div class="score-ranking-container">
+          <!-- Presentación de puntuación -->
+          <div class="box1">
+            <h2 style="color: white;">2048</h2>
+            <p style="color: white;">Puntuación</p>
+          </div>
+
+          <!-- Ranking -->
+          <div class="box1">
+            <h2 style="color: white;">5/10</h2>
+            <p style="color: white;">Posicion</p>
+          </div>
+        </div>
+
+        <!-- Formulario para editar puzzles -->
+        <h2>Editar Puzzles</h2>
+        <form class="form-container">
+          <mat-form-field class="form-field">
+            <mat-label>Nombre</mat-label>
+            <input matInput placeholder="Nombre del puzzle">
+          </mat-form-field>
+          <mat-form-field class="form-field">
+            <mat-label>Dificultad</mat-label>
+            <input matInput placeholder="Dificultad">
+          </mat-form-field>
+          <mat-form-field class="form-field">
+            <mat-label>Icono</mat-label>
+            <input matInput placeholder="URL del icono">
+          </mat-form-field>
+          <mat-form-field class="form-field">
+            <mat-label>Modificar</mat-label>
+            <input matInput placeholder="Modificar">
+          </mat-form-field>
+
+          <mat-slide-toggle class="slide-toggle" color="primary">Registrar Puntuación</mat-slide-toggle>
+        </form>
+
+        <!-- Botón para guardar -->
+        <button mat-button class="my-btn-end2">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>

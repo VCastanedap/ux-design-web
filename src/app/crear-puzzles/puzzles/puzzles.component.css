@@ -19,6 +19,18 @@
   background-color: #5C56E8; /* Cambiar color de fondo al pasar el mouse */
 }
 
+.row  {
+  overflow-x: hidden;
+  overflow: hidden;
+
+}
+
+.content {
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+
 .my-btn-end {
   background-color: #8B56E8; /* Cambiar color de fondo */
   color: white !important; /* Cambiar color del texto */
@@ -28,23 +40,22 @@
   font-size: 16px; /* Cambiar tamaño de fuente */
   cursor: pointer; /* Cambiar cursor al pasar el mouse */
   text-align: center; /* Centrar texto */
-  width: 180px; /* Ancho fijo para los botones */
+  margin-top: 30px;
+  width: 130px; /* Ancho fijo para los botones */
   font-weight: bold; /* Grosor de la fuente */
   height: 50px; /* Altura deseada del botón */
-  margin-left: 14rem;
-  margin-right: auto;
 }
 
 .my-btn-end:hover {
   background-color: #5C56E8; /* Cambiar color de fondo al pasar el mouse */
 }
 .mat-icon1 {
-  color: rgb(255, 255, 255); /* Cambiar el color del icono a rojo */
+  color: rgb(251, 250, 250); /* Cambiar el color del icono a rojo */
   font-size: 24px; /* Cambiar el tamaño del icono */
 }
 
 .mat-icon2 {
-  color: #8B56E8; /* Cambiar el color del icono a rojo */
+  color: #8B56E8(251, 250, 250); /* Cambiar el color del icono a rojo */
 }
 .box {
   border: 2px solid #fdfcff; /* Borde sólido de 2px de ancho */
@@ -100,13 +111,23 @@
   height: 50px; /* Altura deseada del botón */
 }
 
-.content{
-  background-color:#EFEAFF ;
+
+
+
+.my-btn-end2 {
+  background-color: #8B56E8; /* Cambiar color de fondo */
+  color: white !important; /* Cambiar color del texto */
+  border: none; /* Eliminar borde */
+  border-radius: 25px; /* Agregar borde redondeado */
+  padding: 10px 20px; /* Ajustar relleno */
+  font-size: 16px; /* Cambiar tamaño de fuente */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  text-align: center; /* Centrar texto */
+  margin-top: 25px;
+  margin-left: 15rem; /* Márgenes entre los botones */
+  width: 130px; /* Ancho fijo para los botones */
+  font-weight: bold; /* Grosor de la fuente */
+  height: 50px; /* Altura deseada del botón */
 }
 
-.txtMorado{
-  color: #8B56E8;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 18px;
-}
+
