@@ -36,19 +36,19 @@
           </mat-form-field>
         </form>
 
-        <mat-grid-list cols="3" rowHeight="4rem">
+        <mat-grid-list cols="3" rowHeight="4rem" (click)="redirectToHome()">
           <mat-grid-tile></mat-grid-tile>
           <mat-grid-tile><button mat-raised-button color="primary">Ingresar</button></mat-grid-tile>
           <mat-grid-tile></mat-grid-tile>
         </mat-grid-list> 
 
-        <mat-grid-list cols="3" rowHeight="4rem">
+        <mat-grid-list cols="3" rowHeight="4rem" (click)="redirectToRecovery()">
           <mat-grid-tile></mat-grid-tile>
           <mat-grid-tile><h6 style="text-align: center; text-decoration: underline; color: blueviolet;">¿Olvidaste el usuario o la contraseña?</h6></mat-grid-tile>
           <mat-grid-tile></mat-grid-tile>
         </mat-grid-list>
 
-        <mat-grid-list cols="3" rowHeight="2rem">
+        <mat-grid-list cols="3" rowHeight="2rem" (click)="redirectToSignUp()">
           <mat-grid-tile></mat-grid-tile>
           <mat-grid-tile><h6 style="text-align: center; text-decoration: underline; color: blueviolet;">Registrate</h6></mat-grid-tile>
           <mat-grid-tile></mat-grid-tile>
