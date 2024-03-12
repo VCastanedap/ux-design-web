@@ -1,3 +1,66 @@
-<p>
-  login works!
-</p>
+<mat-grid-list cols="3">
+
+  <mat-grid-tile>
+
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <mat-card>
+      <mat-card-content>
+        
+        
+        <mat-grid-list cols="3">
+          <mat-grid-tile></mat-grid-tile>
+          <mat-grid-tile><img src="\assets\img\fire-alarm.png" alt="Brand" width="150" height="150"></mat-grid-tile>
+          <mat-grid-tile></mat-grid-tile>
+        </mat-grid-list> 
+
+
+        <form class="login-form">
+          <mat-form-field class="login-full-width">
+            <mat-label>Usuario</mat-label>
+            <input matInput>
+            <mat-hint>TestingUser10</mat-hint>
+          </mat-form-field>
+          
+          <mat-form-field class="login-full-width">
+            <mat-label>Contraseña</mat-label>
+            <input type="password" matInput [formControl]="passwordFormControl" [errorStateMatcher]="matcher"
+                   placeholder="******">
+            @if (passwordFormControl.hasError('pattern') && !passwordFormControl.hasError('required')) {
+              <mat-error>Por favor, ingrese una contraseña valida</mat-error>
+            }
+            @if (passwordFormControl.hasError('required')) {
+              <mat-error>La contraseña es <strong>requerida</strong></mat-error>
+            }
+          </mat-form-field>
+        </form>
+
+        <mat-grid-list cols="3" rowHeight="4rem">
+          <mat-grid-tile></mat-grid-tile>
+          <mat-grid-tile><button mat-raised-button color="primary">Ingresar</button></mat-grid-tile>
+          <mat-grid-tile></mat-grid-tile>
+        </mat-grid-list> 
+
+        <mat-grid-list cols="3" rowHeight="4rem">
+          <mat-grid-tile></mat-grid-tile>
+          <mat-grid-tile><h6 style="text-align: center; text-decoration: underline; color: blueviolet;">¿Olvidaste el usuario o la contraseña?</h6></mat-grid-tile>
+          <mat-grid-tile></mat-grid-tile>
+        </mat-grid-list>
+
+        <mat-grid-list cols="3" rowHeight="2rem">
+          <mat-grid-tile></mat-grid-tile>
+          <mat-grid-tile><h6 style="text-align: center; text-decoration: underline; color: blueviolet;">Registrate</h6></mat-grid-tile>
+          <mat-grid-tile></mat-grid-tile>
+        </mat-grid-list>
+
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+
+  </mat-grid-tile>
+
+
+</mat-grid-list>
