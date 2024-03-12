@@ -8,7 +8,7 @@ import { PuzzlesComponent } from './crear-puzzles/puzzles/puzzles.component';
 import { PuzzleComponent } from './puzzle/puzzle.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' }, // Redirección de la ruta vacía a /home
+  { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirección de la ruta vacía a /login
   { path: 'login', component: LoginComponent,  pathMatch: 'full' },
   { path: 'signup', component: SignUpComponent,  pathMatch: 'full' },
   { path: 'recovery', component: RecoveryComponent,  pathMatch: 'full' },
